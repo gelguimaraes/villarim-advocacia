@@ -7,7 +7,7 @@ Gesoaldo Guimarães, Jailton Silva e Rafael Souza
 
 ## Descrição
 
-O Projeto Vilarrim Advocacia trata-se de um site institucional e de informação acerca dos serviços prestados pelo profissional da área Jurídica Tadeu Villarim. Possui 6 páginas principais: Inicio [(index.html)](site/index.html), Advocacia Villarim [(quemsou.html)](site/quemsou.html), Áreas de Atuação [(areasatuacao.html)](site/areasatuacao.html), Últimas Noticias [(noticias.html)](site/noticias.html), Artigos Pessoais [(artigos.html)](site/artigos.html), Nossas Unidades [(unidades.html)](site/unidades.html), Entre em Contato [(contato.html)](site/contato.html) e 1 página secundária Noticia [(noticia1.html)](site/noticia1.html).
+O Projeto Vilarrim Advocacia trata-se de um site institucional e de informação acerca dos serviços prestados pelo profissional da área Jurídica Tadeu Villarim. Possui 6 páginas principais: "Inicio" [(index.html)](site/index.html), "Advocacia Villarim" [(quemsou.html)](site/quemsou.html), "Áreas de Atuação" [(areasatuacao.html)](site/areasatuacao.html), "Últimas Noticias' [(noticias.html)](site/noticias.html), "Artigos Pessoais" [(artigos.html)](site/artigos.html), "Nossas Unidades" [(unidades.html)](site/unidades.html), "Entre em Contato" [(contato.html)](site/contato.html) e 1 página secundária "Noticia" [(noticia1.html)](site/noticia1.html).
 
 ## Objetivo
 Site criado com o objetivo de facilitar a apresentação do profissional para seus potenciais clientes.
@@ -42,12 +42,15 @@ Site criado com o objetivo de facilitar a apresentação do profissional para se
 ## Protótipos
 
 [Versão Desktop](wireframes/desktop)
+
 [Versão Móbile](wireframes/mobile)
 
 ## Screenshots
 
 [Versão Desktop](screenshots/desktop)
+
 [Versão Tablet](screenshots/tablet)
+
 [Versão Móbile](screenshots/mobile)
 
 
