@@ -746,12 +746,24 @@ footer {
 	border-radius: 0 0 5px 5px;
 	padding-bottom: 3px;
 }
-.bgWin p {
-	padding: 20px;
-	font-size: 14px;
+
+.bgWin article {
 	overflow: auto;
 	max-height: 180px;
+	padding: 20px;
+	font-size: 14px;
 }
+
+.bgWin article ol {
+	display: inline-block;
+	padding: 10px;
+}
+
+.bgWin article li {
+	list-style-position: inside;
+	padding-left: 20px;
+}
+
 .bgWin p span {
 	margin-bottom: 20px;
 	display: block;
