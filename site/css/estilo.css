@@ -559,6 +559,14 @@ i.menu-anchor {
 	text-align: center;
 	margin-bottom: 15px;
 }
+.home .bgWinUni p {
+	max-height: 180px;
+	overflow: auto;
+	padding: 20px;
+	font-size: 12px;
+}
+
+
 /*FOOTER*/
 
 footer {
@@ -670,33 +678,25 @@ footer {
 	border-radius: 50%;
 	transition: all .5s ease-in-out;
 	background-size: 100% 200%;
-    background-image: linear-gradient(to bottom, transparent 50%, white 50%);
+	background-image: linear-gradient(to bottom, transparent 50%, white 50%);
 }
 .brFooterDown .iconMidias .circle:hover {
 	box-shadow: 0 0 5px 3px rgba(243, 243, 243, 0.47);
 	background-position: 0 -100%;
-    background-color: #FFF;
-	
+	background-color: #FFF;
 }
-
-.brFooterDown .iconMidias a:hover{
+.brFooterDown .iconMidias a:hover {
 	color: rgb(24, 26, 16) !important;
 }
-
-
-.scrollToTop{
+.scrollToTop {
 	position: fixed;
 	right: 5%;
 	bottom: 10px;
-	z-index:1;
+	z-index: 1;
 	display: none;
 	transition: right 0.5s ease-out, height 0.2s ease-out, padding 0.2s ease-out, background 0.2s ease-out, border 0.2s ease-out;
 }
-
-
-
-
-.scrollToTop a{
+.scrollToTop a {
 	width: 40px;
 	height: 40px;
 	display: flex;
@@ -704,17 +704,14 @@ footer {
 	justify-content: center;
 	font-size: 16px;
 	color: #FFF;
-	background-color:rgba(207,216,208,0.48);
+	background-color: rgba(207,216,208,0.48);
 	transition: all 0.5s;
 	border-radius: 10px;
 	text-decoration: none;
 }
-
-.scrollToTop a:hover{
+.scrollToTop a:hover {
 	background: rgba(0,0,0,0.59);
 }
-
-
 /* JANELAS LIGHTBOX*/
 
 .mask {
@@ -746,24 +743,20 @@ footer {
 	border-radius: 0 0 5px 5px;
 	padding-bottom: 3px;
 }
-
 .bgWin article {
 	overflow: auto;
 	max-height: 180px;
 	padding: 20px;
 	font-size: 14px;
 }
-
 .bgWin article ol {
 	display: inline-block;
 	padding: 10px;
 }
-
 .bgWin article li {
 	list-style-position: inside;
 	padding-left: 20px;
 }
-
 .bgWin p span {
 	margin-bottom: 20px;
 	display: block;
@@ -1037,53 +1030,44 @@ footer {
 	text-align: right;
 }
 /*AREAS DE ATUAÇÃO*/
-.pagSec .areasAtuacao {
-}
-.pagSec .areasAtuacao #mask {
-	z-index: 5;
+
+.focusElm {
 	display: none;
-	background-color: #000;
-	position: fixed;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-}
-.pagSec .areasAtuacao .focusWindow {
-	display: none;
-	z-index: 10;
-	background-color: #fff;
-	position: fixed;
-	width: 500px;
-	top: 50vh;
-	left: 50vw;
-	margin-left: -300px;
-	margin-top: -40vh;
+	margin: 50px auto 50px auto;
 	padding: 50px;
-	box-shadow: 0px 0px 15px #888888;
+	width: 100%;
+	max-width: 500px;
+	background-color: #fff;
+	box-shadow: 0px 0px 15px #333;
 }
-.pagSec .areasAtuacao .focusWindow h3 {
+.focusElm h3 {
 	font-size: 32px;
 	margin-bottom: 20px;
 }
-.pagSec .areasAtuacao .focusWindow i {
+.focusElm i {
 	color: rgba(0,0,0,0.3);
 	font-size: 24px;
 	float: right;
 }
-.focusWindow i:hover {
+.focusElm i:hover {
 	color: rgba(0,0,0,0.5);
 	cursor: pointer;
 }
-.pagSec .areasAtuacao .focusWindow hr {
+.focusElm hr {
 	margin-left: 25px;
 	margin-right: 25px;
 	margin-bottom: 15px;
 }
-.pagSec .areasAtuacao .focusWindow p {
+.focusElm p {
 	font-size: 14px;
-	overflow: auto;
-	max-height: 300px;
+}
+.focusElm ol {
+	display: inline-block;
+	padding: 10px;
+}
+.focusElm li {
+	list-style-position: inside;
+	padding-left: 20px;
 }
 .pagSec .areasAtuacao .areas {
 	display: grid;
@@ -1262,7 +1246,6 @@ footer {
 	grid-column: 1/4;
 	margin: auto;
 }
-
 /*UNIDADES*/
 
 .pagSec .unidades .bgUnidades {
@@ -1336,6 +1319,12 @@ footer {
 	font-size: 20px;
 	text-align: center;
 	margin-bottom: 15px;
+}
+.pagSec .bgWinUni p {
+	max-height: 180px;
+	overflow: auto;
+	padding: 20px;
+	font-size: 12px;
 }
 /*CONTATO*/
 

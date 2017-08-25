@@ -263,7 +263,7 @@ i.menu-anchor {
 }
 .pagSec .menuTop ul li a:hover {
 	background-color: rgba(255, 255, 255, 0.37);
-}	
+}
 .pagSec .bgTitleTop {
 	top: 215px;
 	padding: 60px 0 40px;
@@ -287,33 +287,29 @@ i.menu-anchor {
 	width: 100%;
 }
 .pagSec .quemSou .timeLine h2 {
-    text-align: center;
-}	
-.pagSec .quemSou .bgTimeLine, .pagSec .quemSou .bgEscQuemSou{
-    grid-column: 1/3;
-    width: 100%;
-}	
-	
-	
+	text-align: center;
+}
+.pagSec .quemSou .bgTimeLine, .pagSec .quemSou .bgEscQuemSou {
+	grid-column: 1/3;
+	width: 100%;
+}
 /*AREAS DE ATUAÇÃO*/
 	
 .pagSec .areasAtuacao .areas {
-    grid-template-columns: 1fr ;
-}	
-	
-
+	grid-template-columns: 1fr;
+}
+.focusElm {
+	width: 50%;
+	max-width: 500px;
+}
 /*NOTICIAS*/
 .pagSec .noticias .itemNoticia {
 	width: 100%;
 }
-/*NOTICIA*/
-	
 /*ARTIGOS*/
 .pagSec .artigos .artigo {
 	width: 100%;
 }
-/*ARTIGO*/
-
 /*UNIDADES*/
 .pagSec .unidades .unidade {
 	width: 100%;
@@ -365,22 +361,18 @@ i.menu-anchor {
 	width: 275px;
 }
 /*------------------------------PAGINAS SECUNDÁRIAS------------------------------*/	
-	
-/*QUEM SOU*/
+
 
 /*AREAS DE ATUAÇÃO*/
 
 .pagSec .areasAtuacao .areas {
-
-    grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 }
 /*NOTICIA*/
 	
 .pagSec .noticias .itemNoticia {
 	width: 275px;
 }
-
-
 /*ARTIGO*/
 .pagSec .artigos .artigo {
 	width: 275px;
@@ -411,8 +403,8 @@ i.menu-anchor {
 }
 .pagSec .quemSou .bgQuemSou .descQuemSou p:nth-child(2) {
 	font-size: 11px;
-    padding-left: 50px;
-    padding-right: 18px;
+	padding-left: 50px;
+	padding-right: 18px;
 }
 }
 
