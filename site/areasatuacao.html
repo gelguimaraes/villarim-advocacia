@@ -10,6 +10,7 @@
 <link rel="shortcut icon" href="images/favicon.ico">
 <script type="text/javascript"  src="js/jquery.min.js"></script>
 <script type="text/javascript"  src="js/script.js"></script>
+<script type="text/javascript"  src="js/focus.js"></script>
 </head>
 
 <body class="pagSec">
@@ -49,68 +50,84 @@
       <h1><i class="fa fa-balance-scale"></i> Áreas de Atuação</h1>
     </div>
   </div>
-  
- <div id="mask"></div>
-    <div id="direitoDoTrabalho" class="focusWindow">
-          <i class="fa fa-times" onclick="hideAll()"></i>
-          <h3>Direito do Trabalho</h3>
-          <hr>
-          <p>
-              O direito do trabalho é o conjunto de normas jurídicas que regem as relações entre empregados e empregadores, são os direitos resultantes da condição jurídica dos trabalhadores. Estas normas, no Brasil, estão regidas pela Consolidação das Leis do Trabalho (CLT), Constituição Federal de 1988 e várias leis esparsas (como a lei que define o trabalho do estagiário, dentre outras).
-              <br>
-              <br>
-              Surge como autêntica expressão do humanismo jurídico e instrumento de renovação social. Constitui atitude de intervenção jurídica em busca de um melhor relacionamento entre o homem que trabalha e aqueles para os quais o trabalho se destina. Visa também a estabelecer uma plataforma de direitos básicos. Portanto, a definição de direito do trabalho é o conjunto de normas e princípios que regulamentam o relacionamento entre empregado e empregadores. 
-              <br>
-              <br>
-              Pode ser conceituado também segundo Hernainz Marques, professor de direito do trabalho, como “Conjunto de normas jurídicas que regulam as relações de trabalho, sua preparação, desenvolvimento, consequências e instituições complementares dos elementos pessoais que nelas intervêm." Não é apenas o conjunto de leis, mas de normas jurídicas, entre as quais os contratos coletivos, e não regula apenas as relações entre empregados e empregadores num contrato de trabalho, mas vai desde a sua preparação com a aprendizagem até as consequências complementares, como por exemplo a organização profissional.
-          </p>
-      </div>
-    <div id="direitoDaFamilia" class="focusWindow">
-        <i class="fa fa-times" onclick="hideAll()"></i>
-        <h3>Direito da Família</h3>
-        <hr>
-        <p>
-            O direito de família é o ramo do direito que contém normas jurídicas relacionadas com a estrutura, organização e proteção da família. Ramo que trata das relações familiares e das obrigações e direitos decorrentes dessas relações, ou seja, é o ramo do Direito que regula e estabelece as normas de convivência familiar.
-            <br>
-            <br>
-            Dentro do Direito de Família, encontramos o Casamento, que é a união voluntária entre duas pessoas, formalizada nos termos da Lei, com o objetivo de manter uma plena comunhão de vida.
-            <br>
-            <br>
-            Também parte deste ramo do direito, ainda que não positivada (publicada em norma escrita) é aquela referente aos esponsais, fase anterior ao casamento conhecida principalmente por noivado e que pode gerar efeitos jurídicos.
-        </p>
+  <div id="direitoDoTrabalho" class="focusElm"> <i class="fa fa-times" onclick="FocusHide()"></i>
+    <h3>Direito do Trabalho</h3>
+    <hr>
+    <p> O direito do trabalho é o conjunto de normas jurídicas que regem as relações entre empregados e empregadores, são os direitos resultantes da condição jurídica dos trabalhadores. Estas normas, no Brasil, estão regidas pela Consolidação das Leis do Trabalho (CLT), Constituição Federal de 1988 e várias leis esparsas (como a lei que define o trabalho do estagiário, dentre outras). <br>
+      <br>
+      Surge como autêntica expressão do humanismo jurídico e instrumento de renovação social. Constitui atitude de intervenção jurídica em busca de um melhor relacionamento entre o homem que trabalha e aqueles para os quais o trabalho se destina. Visa também a estabelecer uma plataforma de direitos básicos. Portanto, a definição de direito do trabalho é o conjunto de normas e princípios que regulamentam o relacionamento entre empregado e empregadores. <br>
+      <br>
+      Pode ser conceituado também segundo Hernainz Marques, professor de direito do trabalho, como “Conjunto de normas jurídicas que regulam as relações de trabalho, sua preparação, desenvolvimento, consequências e instituições complementares dos elementos pessoais que nelas intervêm." Não é apenas o conjunto de leis, mas de normas jurídicas, entre as quais os contratos coletivos, e não regula apenas as relações entre empregados e empregadores num contrato de trabalho, mas vai desde a sua preparação com a aprendizagem até as consequências complementares, como por exemplo a organização profissional. </p>
+  </div>
+  <div id="direitoDaFamilia" class="focusElm"> <i class="fa fa-times" onclick="FocusHide()"></i>
+    <h3>Direito da Família</h3>
+    <hr>
+    <p> O direito de família é o ramo do direito que contém normas jurídicas relacionadas com a estrutura, organização e proteção da família. Ramo que trata das relações familiares e das obrigações e direitos decorrentes dessas relações, ou seja, é o ramo do Direito que regula e estabelece as normas de convivência familiar. <br>
+      <br>
+      Dentro do Direito de Família, encontramos o Casamento, que é a união voluntária entre duas pessoas, formalizada nos termos da Lei, com o objetivo de manter uma plena comunhão de vida. <br>
+      <br>
+      Também parte deste ramo do direito, ainda que não positivada (publicada em norma escrita) é aquela referente aos esponsais, fase anterior ao casamento conhecida principalmente por noivado e que pode gerar efeitos jurídicos. </p>
+  </div>
+  <div id="direitoPrevidenciario" class="focusElm"> <i class="fa fa-times" onclick="FocusHide()"></i>
+    <h3>Direito Previdenciario</h3>
+    <hr>
+    <p>O <b>Direito Previdenciário</b> é ramo do Direito público que objetiva o estudo e disciplina da seguridade social, em geral, regula e normatiza o que conhecemos como Previdência, seja a Social ou Privada. Por sua vez, Previdência é “derivado do verbo prever, previdência é a qualidade de quem consegue ver com antecipação, antever” (VIEIRA, 2005: p. 2); em se tratando de Previdência Social, sua principal fonte é Constituição Federal de 1988, que estabelece em seu artigo 201:<br>
+      <br>
+      Art. 201. A previdência social será organizada sob a forma de regime geral, de caráter contributivo e de filiação obrigatória, observados critérios que preservem o equilíbrio financeiro e atuarial, e atenderá, nos termos da lei, a:<br>
+    <ol type="I">
+      <li>cobertura dos eventos de doença, invalidez, morte e idade avançada;</li>
+      <li>proteção à maternidade, especialmente à gestante;</li>
+      <li>proteção ao trabalhador em situação de desemprego involuntário;</li>
+      <li>salário-família e auxílio-reclusão para os dependentes dos segurados de baixa renda;</li>
+      <li>pensão por morte do segurado, homem ou mulher, ao cônjuge ou companheiro e dependentes, observado o disposto no § 2º.</li>
+    </ol>
+    </p>
+  </div>
+  <div id="direitoCivil" class="focusElm"> <i class="fa fa-times" onclick="FocusHide()"></i>
+    <h3>Direito Civil</h3>
+    <hr>
+    <p> Como nas demais áreas, a atuação no Direito Civil também ocorre nas esferas judiciais e extrajudiciais. E como as matérias tratadas pelas normas do Direito Civil são as mais vivenciadas no cotidiano da sociedade, a assessoria é ampla, englobando temas como: obrigações, contratos, direito sobre as coisas, família, direito bancário, responsabilidade civil, etc; além de ações específicas, como as de cobrança do seguro DPVAT e indenizações por acidentes automobilísticos em rodovias federais e estad uais. </p>
+    <div id="direitoEmpresarial" class="focusElm"> <i class="fa fa-times" onclick="FocusHide()"></i>
+      <h3>Direito Empresarial</h3>
+      <hr>
+      <p> O grande crescimento da economia brasileira nos últimos anos impulsionou o consumo e o surgimento de muitas empresas de médio e grande porte, fazendo surgir, paralelamente, muitos conflitos de diversas naturezas entre consumidores e fornecedores, patrão e empregados, indenizações civis, além de questões fiscais das mais variadas. <br>
+        <br>
+        A constante evolução das leis exige que o empresário tenha uma consultoria jurídica eficiente e especializada, que não apenas resolva os problemas surgidos junto aos mais diversos órgãos públicos e junto ao Poder Judiciário, como também desenvolva um trabalho preventivo desses litígios. </p>
     </div>
+    <div id="direitoDoConsumidor" class="focusElm"> <i class="fa fa-times" onclick="FocusHide()"></i>
+      <h3>Direito do Consumidor</h3>
+      <hr>
+      <p> Em 1990, foi aprovado o Código de Defesa do Consumidor. É uma lei avançada e muito elogiada por outros países. Foi feito por uma comissão de juristas que estudavam já esse assunto, pessoas que no meio jurídico têm um peso enorme. <br>
+        <br>
+        Esse código é considerado um microsistema, pois trata de várias esferas do Direito( inclui regras de direito penal, civil, administrativo etc). Com todo o seu avanço, o CDC não regra toda relação de compra e venda no mercado. Quando nós podemos invocá-lo afinal? É preciso que a compra e venda seja considerada uma relação de consumo ( tem que ter circulação de mercadoria). Antes de 90 o consumidor não tinha um aparato legislativo tão forte como hoje. Antes do CDC, era o Código Civil ou o Código Adm. que protegia o consumidor. </p>
+    </div>
+  </div>
   <section class="areas">
-      <article onclick="#">
-        <i class="fa fa-briefcase"></i>
-        <h3>Direito do Trabalho</h3>
-        <p>O objetivo principal do direito do trabalho é regular a relação jurídica entre patrões e empregados</p>
-      </article>
-     <article onclick="#">
-    <i class="fa fa-wheelchair"></i>
+    <article onclick="FocusShow('direitoDoTrabalho', 'normal', 0.6, 0.3)"> <i class="fa fa-briefcase"></i>
+      <h3>Direito do Trabalho</h3>
+      <p>O objetivo principal do direito do trabalho é regular a relação jurídica entre patrões e empregados</p>
+    </article>
+    <article onclick="FocusShow('direitoPrevidenciario', 'normal', 0.6, 0.3)"> <i class="fa fa-wheelchair"></i>
       <h3>Direito Previdenciário</h3>
       <p>Seu objetivo é o estudo e a regulamentação do instituto seguridade social.</p>
     </article>
-     <article onclick="#">
-      <i class="fa fa-users"></i>
+    <article onclick="FocusShow('direitoDaFamilia', 'normal', 0.6, 0.3)"> <i class="fa fa-users"></i>
       <h3>Direito da Família</h3>
       <p>É o ramo do direito que contém normas jurídicas relacionadas com a estrutura, organização e proteção da família.</p>
     </article>
-      <article onclick="#">
-      <i class="fa fa-user"></i>
+    <article onclick="FocusShow('direitoCivil', 'normal', 0.6, 0.3)"> <i class="fa fa-user"></i>
       <h3>Direito Civil</h3>
       <p>O direito civil é o principal ramo do direito privado. E o direito comum, o que rege as relações entre os particulares.</p>
     </article>
-      <article onclick="#">
-      <i class="fa fa-shopping-cart"></i>
+    <article onclick="FocusShow('direitoDoConsumidor', 'normal', 0.6, 0.3)"> <i class="fa fa-shopping-cart"></i>
       <h3>Direito do Consumidor</h3>
       <p>O Direito do Consumidor é o ramo do direito que lida com as relações jurídicas entre fornecedores de bens e serviços e seus consumidores.</p>
     </article>
-      <article onclick="#">
-      <i class="fa fa-building"></i>
+    <article onclick="FocusShow('direitoEmpresarial', 'normal', 0.6, 0.3)"> <i class="fa fa-building"></i>
       <h3>Direito Empresarial</h3>
       <p>E um ramo do direito privado que pode ser entendido como o conjunto de normas disciplinadoras da atividade negocial do empresário, e de qualquer pessoa física ou jurídica</p>
     </article>
-  </section> 
+  </section>
 </main>
 <footer>
   <section class="bgFooterTop">
